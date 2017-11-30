@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!--自己的css在bootstrap裤的下面引用-->
+    <link rel="stylesheet" href="./css/animate.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/jquery.singlePageNav.min.js"></script>
+    <title>户外运动</title>
+</head>
+
+<body>
+    <!--顶部-->
+    <div class="container-fluid top" style="width: 100%;">
+        <div class="container" style="width: 95%;margin: 0 auto;line-height: 40px;height: 40px;">
+            <span class="pull-left">&nbsp;在线时间 08:30~21:30</span>
+            <P class="pull-left">欢迎访问户外运动专卖商城！</P>
+            <ul class="tb pull-right">
+                <li class="glyphicon glyphicon-shopping-cart"></li>
+                <li class="glyphicon glyphicon-user"></li>
+                <li class="glyphicon glyphicon-shopping-cart"></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <!--搜索栏-->
+    <header class="container ss" style="height:80px;background:#fff;width: 100%;">
+        <div class="container" style="width: 95%">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 " style="margin-top:10px">
+                    <p class=" pull-left" style="color: #000;font-size: 20px;font-weight:600;width:100%;">SPORTING</p>
+                </div>
+                <div class="col-md-3 col-sm-12 pull-right" style="margin-top:10px">
+                    <div class="input-group d">
+                        <input type="text" class="form-control" placeholder="搜索商品关键字">
+                        <span class="input-group-btn">
+                           <button class="btn btn-default dd" type="button">点我</button>
+                         </span>
+                    </div>
+                    <!-- /input-group -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--导航-->
+    <header>
+        <div class="container-fluid" style="background:#000;height:60px;">
+            <div class="collapse navbar-collapse zt" style="display:block;height: 50px;">
+
+                <div class="navbar-header">
+                    <div class="navbar-toggle collapsed zt_box" style="width:100%;height: 50px;">
+                        <div class="dropdown ">
+                            <button type="button" class="btn dropdown-toggle j" id="dropdownMenu1" data-toggle="dropdown" style="width:100%;height: 40px;">
+		                    主题
+		                    <span class="caret"></span>
+	                        </button>
+                            <ul class="dropdown-menu k" role="menu" aria-labelledby="dropdownMenu1" style="background:#000">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">商城网页</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">所有商品</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">商品动态</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">支付方式</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">关于店铺</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">线下门店</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">登录/注册</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left dh" style="display:block;height: 40px;color: #fff;">
+                            <!--navbar导航栏-->
+                            <li><a href="#home">首页</a></li>
+                            <li><a href="#bbs">商城首页</a></li>
+                            <li><a href="#html5">所有商品</a></li>
+                            <li><a href="#lesson">商品动态</a></li>
+                            <li><a href="#app">支付方式</a></li>
+                            <li><a href="#contact">关于店铺</a></li>
+                            <li><a href="#contact">线下门店</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!--轮播-->
+    <!--banner-->
+    <div id="myCarousel" class="carousel slide banertext">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner" style="width:100%">
+            <div class="item active">
+                <img src="img/33.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="img/21.jpg" alt="Second slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left g" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right gg" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        <span class="text-center col-sm-12 col-md-12 col-xs-12">SPORTING GOODS</span>
+        <p class="text-center"><a>进入在线商城</a></p>
+    </div>
+    <!--关于我们-->
+    <section id="home">
+        <div class="lvjing">
+            <div class="container-fluid gywm">
+                <div class="wm wow flip">
+                    <h3 class="pull-left">关于我们</h3>
+                    <h2 class="pull-left"><a>About us</a></h2>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="container xq" style="width:100%;">
+                <div class="xqt">
+                    <div class="xqt_box pull-right wow bounceIn"><img src="img/4.jpg" style="backcorner-size:100% 100%;width: 100%"></div>
+                    <div class="xqz  wow flip">
+                        <p>SPORTING</p>
+                        <h1><a>GOODS</a></h1>
+                        <b><a>在专栏设置面板中，您可以更换背景图片的</a></b>
+                        <h4>非常简单的，不需要任何别的设置</h4>
+                        <button>查看更多详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--热卖商品-->
+    <section id="home" style="margin-top:5%;">
+        <div class="container ddd" style="width: 100%">
+
+            <div class="sp wow flip" style="margin-bottom:5%;">
+                <h3 class="pull-left">热卖商品</h3>
+                <h2 class="pull-left"><a>New product</a></h2>
+            </div>
+
+            <div class="row ">
+                <div style="overflow: hidden;">
+                    <div class="col-md-3 wow pulse  yazi col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img src="./img/5.jpg" alt="">
+                            <h3 class="text-center">滑雪眼镜012</h3>
+                            <i class="text-center" style="display:block">￥2800</i>
+
+                        </a>
+                    </div>
+                    <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img src="./img/6.jpg" alt="">
+                            <h3 class="text-center">滑雪配件037</h3>
+                            <i class="text-center" style="display:block">￥2800</i>
+
+                        </a>
+                    </div>
+                    <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="text-center">滑雪服013</h3>
+                            <i class="text-center" style="display:block">￥2800</i>
+
+                        </a>
+                    </div>
+                    <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img src="./img/8.jpg" alt="">
+                            <h3 class="text-center">滑雪眼镜</h3>
+                            <i class="text-center" style="display:block">￥590</i>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                    <a href="#">
+                        <img src="./img/9.jpg" alt="">
+                        <h3 class="text-center">滑雪板单板023</h3>
+                        <i class="text-center" style="display:block">￥2800</i>
+
+                    </a>
+                </div>
+                <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                    <a href="#">
+                        <img src="./img/10.jpg" alt="">
+                        <h3 class="text-center">滑雪板单板028</h3>
+                        <i class="text-center" style="display:block">￥2800</i>
+
+                    </a>
+                </div>
+                <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                    <a href="#">
+                        <img src="./img/12.jpg" alt="">
+                        <h3 class="text-center">滑雪服015</h3>
+                        <i class="text-center" style="display:block">￥2800</i>
+
+                    </a>
+                </div>
+                <div class="col-md-3 wow pulse yazi col-sm-6 col-xs-6">
+                    <a href="#">
+                        <img src="./img/13.jpg" alt="">
+                        <h3 class="text-center">滑雪手套003</h3>
+                        <i class="text-center" style="display:block">￥198</i>
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--热卖商品1-->
+    <section id="text" style="margin-top: 30px;">
+        <div class="container" style="width: 100%">
+            <div class="sp wow flip" style="margin-bottom:5%;">
+                <h3 class="pull-left">热卖商品</h3>
+                <h2 class="pull-left"><a>New product</a></h2>
+            </div>
+            <div class="row tlz_box">
+                <div class="tlz tlza col-md-8 col-sm-12" style="z-index:2;">
+                    <div class="tlz col-md-12 col-sm-12" style="">
+                        <p class="pull-left col-sm-4"><img src="./img/14.jpg" style="width:100%"></p>
+                        <div class="tlz_text col-sm-8 ">
+                            <h1>探路者&新浪体育超级雪滑雪季暨明星邀请赛今冬启动</h1>
+                            <span>发布日期：2017-05-23</span>
+                            <h2>秋天的拉萨，天气比较干燥，这个时候在家里养一些可以制造氧气和水分的植物大有好处。记者走访多个花店后发现， 很多店老板都会同时提到一种制氧植物——红豆杉。红豆杉有“植物增氧机”之称...
+                            </h2>
+                        </div>
+                        <div class="tlz col-md-12 col-sm-12" style="margin-top: 2%;">
+                            <p class="pull-left ttt col-sm-4" style=" margin-left: -1%;"><img src="./img/15.jpg" style="width:100%"></p>
+                            <div class="tlz_text col-sm-8">
+                                <h1>探路者&新浪体育超级雪滑雪季暨明星邀请赛今冬启动</h1>
+                                <span>发布日期：2017-05-23</span>
+                                <h2>秋天的拉萨，天气比较干燥，这个时候在家里养一些可以制造氧气和水分的植物大有好处。记者走访多个花店后发现， 很多店老板都会同时提到一种制氧植物——红豆杉。红豆杉有“植物增氧机”之称...
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tlz tlzb col-md-4 " style="transition: 0.3 all linear;">
+                    <div class="t col-md-3"><img src="./img/16.jpg" class="img-responsive center-block" style="transition: 0.3 all linear;" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--背景图-->
+    <section id="lx">
+        <div class="container" style="width:100%;">
+            <div class="wow t1">
+                <div class="text-center">
+                    <div class="lxz wow fadeIn">
+                        <h1>SPORTING GOODS</h1>
+                        <span>在区块设置面板中，您可以更换背景图片</span>
+                        <p>非常简单，不需要任何别的设置</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wow t2">
+                <div class="text-center">
+                    <div class="lxz wow fadeIn">
+                        <h1>SPORTING GOODS</h1>
+                        <span>在区块设置面板中，您可以更换背景图片</span>
+                        <p>非常简单，不需要任何别的设置</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="wow t3">
+                <div class="text-center">
+                    <div class="lxz wow fadeIn">
+                        <h1>SPORTING GOODS</h1>
+                        <span>在区块设置面板中，您可以更换背景图片</span>
+                        <p>非常简单，不需要任何别的设置</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--品牌-->
+    <section id="db" style="background: #393939;display: block;">
+        <div class="content" style="width:100%;background: #393939;">
+            <div class="row" style="width:100%;">
+                <ul class="db_box">
+                    <li class="col-md-1 col-sm-5"><img src="img/77.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/78.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/79.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/80.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/81.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/82.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/83.png"></li>
+                    <li class="col-md-1 col-sm-5"><img src="img/84.png"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="sb">
+        <div class="content" style="background: #393939;">
+            <div class="sh">
+                <div class="sh_box">
+                    <a><img src="./img/85.png"></a>
+                    <span>满1000元全国包邮</span>
+                    <i>全场订单满1000元全国包邮</i>
+                </div>
+                <div class="sh_box">
+                    <a><img src="./img/86.png"></a>
+                    <span>满1000元全国包邮</span>
+                    <i>全场订单满1000元全国包邮</i>
+                </div>
+                <div class="sh_box">
+                    <a><img src="./img/87.png"></a>
+                    <span>满1000元全国包邮</span>
+                    <i>全场订单满1000元全国包邮</i>
+                </div>
+                <div class="sh_box">
+                    <a><img src="./img/88.png"></a>
+                    <span>满1000元全国包邮</span>
+                    <i>全场订单满1000元全国包邮</i>
+                </div>
+            </div>
+            <div class="cp">
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a>本店商品非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+                </div>
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a>本店商品非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+                </div>
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a>本店商品非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+                </div>
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a>本店商品非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+                </div>
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a><img src="./img/89.png"> <img src="./img/90.png"><img src="./img/91.png"></a>
+
+                </div>
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a>本店商品非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+                </div>
+                <div class="cp_box">
+                    <p>关于产品</p>
+                    <a>本店商品非质量问题谢绝退换，如有质量问题，本店承担运费调换</a>
+                </div>
+                <div class="cp_box1">
+                    <p>SPORTING</p>
+                    <b><img src="./img/92.jpg"></b>
+                    <i>搜索微信号：HUAYU</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 hh ">
+                    <a style="display: block"></a>
+                    <p class="text-center">
+                        Copyright 2012-2015 户外运动商品专卖 <abbr title="健哥哥给你个么么哒">健哥哥工作室</abbr>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(function() {
+            $('.j').on('click', function() {
+
+                var i = 0;
+                //alert($(this).html() == "true")
+                if ($(this).html() == "true") {
+                    $(this).text('主题').css({
+                        'color': '#fff',
+                        'background': '#999'
+                    });
+                } else {
+                    $(this).css({
+                        'color': '#fff',
+                        'background': '#000',
+
+                    });
+
+                }
+            })
+            new WOW().init();
+
+
+
+            $('#myCarousel').carousel({
+                interval: 3000
+            })
+            $('.nav').singlePageNav({
+                offset: 1800 //不顶到最上面
+            });
+            $('#home .gywm,.xqz').addClass('animated fadeInUp');
+            setTimeout(function() {
+                $('#home .gywm,.xqz').removeClass('bounce');
+            }, 1000);
+            $('#text .tlz_box .tlza').addClass('animated bounceInLeft');
+            setTimeout(function() {
+                $('#text .tlz_box .tlza').removeClass('bounce');
+            }, 1000);
+            $('#text .tlzb').addClass('animated bounceInRight');
+            setTimeout(function() {
+                $('#text .tlzb').removeClass('bounce');
+            }, 1000);
+        })
+    </script>
+</body>
+
+</html>
